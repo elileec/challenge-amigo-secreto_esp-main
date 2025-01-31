@@ -4,8 +4,9 @@ const amigos = [];
 
 //funcion agregaramigo: variable amigo guarda el amigo ingresado y el método push lo agrega al arreglo amigos
 // la condición if else establece si dejaron el campo nombre vacío 
-// el ciclo for of agrega elementos tipo lista li y cada elemento almacenado en el arreglo amigos 
-//variable resultado1 almacena la etiqueta ul resultado 
+// el ciclo for of agrega etiquetas tipo lista li y cada elemento almacenado en el arreglo amigos 
+//Se crea una etiqueta li y se agrega al valor almacenado en el arreglo 
+//la variable resultado1 se utiliza para limpiar la etiqueta ul antes de mostrar el contenido del arreglo 
 
 function agregarAmigo(){
     var amigo = document.getElementById('amigo').value;
