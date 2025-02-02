@@ -15,20 +15,31 @@ function agregarAmigo(){
     
     var amigo = document.getElementById('amigo').value;
     //convertir el nombre ingresado a mayúsculas
+    //condición valida que la variable amigo contenga un nombre de amigo
     amigo = amigo.toUpperCase();
     if(amigo!=""){
-        amigos.push(amigo);
-        let resultado1 = document.getElementById('resultado');
-        resultado1.innerHTML = '';
-        
-       for(const amigo of amigos){
-            let padre = document.getElementById('resultado');
-            let item = document.createElement('li');
-            item.innerText = amigo;
-            padre.appendChild(item);
-       }
+            // condicion valida que no ingresen nombres de amigos repetidos
+            //variable repetido toma valor true si el amigo ya fue agregado a la lista
+            //la condición repetido no deja agregar nomnbres repetidos a la lista de amigos 
+            let repetido = amigos.includes(amigo);
+           
+            if(repetido!=true){
+                amigos.push(amigo);
+                let resultado1 = document.getElementById('resultado');
+                resultado1.innerHTML = '';
+                
+                for(const amigo of amigos){
+                    let padre = document.getElementById('resultado');
+                    let item = document.createElement('li');
+                    item.innerText = amigo;
+                    padre.appendChild(item);
+                }
+                document.getElementById("amigo").value="";
+            }else{
+                alert("Favor no ingresar nombres repetidos");
+            }
 
-        document.getElementById("amigo").value="";
+            
     }else{
         alert("Debes ingresar un nombre de amigo");
     }
@@ -41,8 +52,8 @@ function sortearAmigo(){
    //resultado1 borra el listado de amigos que se muestran en la etiqueta ul resultaado, para mostrar solo el amigo elegido del sorteo 
     let resultado1 = document.getElementById('resultado');
     resultado1.innerHTML = '';
-    // variable elementos toma la cantidad de elememtos del arreglo diminuido en 1 para iniciar desde la posición 0
-    let elementos = (amigos.length)-1;
+    // variable elementos verifica que la lista de amigos contenga elementos para realizar sorteo
+    let elementos = (amigos.length);
     
     if(elementos>0){
         //variable indiceAleatorio crea un indice aleatorio del arreglo amigos para seleccionar un elemento de la lista amigos
