@@ -15,7 +15,8 @@ function agregarAmigo(){
     
     var amigo = document.getElementById('amigo').value;
     //convertir el nombre ingresado a mayúsculas
-    //condición valida que la variable amigo contenga un nombre de amigo
+  
+    //comprobar que el arreglo amigo no esté vacio.
     amigo = amigo.toUpperCase();
     if(amigo!=""){
             // condicion valida que no ingresen nombres de amigos repetidos
@@ -41,7 +42,7 @@ function agregarAmigo(){
 
             
     }else{
-        alert("Debes ingresar un nombre de amigo");
+        alert("Por favor, ingrese un nombre válido");
     }
    
 }
