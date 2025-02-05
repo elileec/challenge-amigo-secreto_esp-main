@@ -14,5 +14,5 @@
 - CSS
 - JAVASCRIPT
 
-## Autores
+## Autor
 Eaborado por LUIS ECHEVERRI CASTAÑO
