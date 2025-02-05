@@ -10,9 +10,9 @@
 - `Funcionalidad 2`: Elegir un amigo aleatorio del listado ingresado
 
 ## Tecnologías utilizadas
-*(#HTML)
-*(#CSS)
-*(#JAVASCRIPT)
+#HTML
+#CSS
+#JAVASCRIPT
 
 ## Autores
 Eaborado por LUIS ECHEVERRI CASTAÑO
