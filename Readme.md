@@ -11,7 +11,8 @@
 ![Image Alt](https://github.com/elileec/challenge-amigo-secreto_esp-main/blob/e4c9f6c220540bc8d2f48ce92ccecb721023414e/portal1.PNG).
 ![Image Alt](https://github.com/elileec/challenge-amigo-secreto_esp-main/blob/f9c37a0e40717f61fb54de3e42e70a73e6401389/portal2.PNG).
 - `Funcionalidad 2`: Elegir un amigo aleatorio del listado ingresado.
-  ![Image Alt](https://github.com/elileec/challenge-amigo-secreto_esp-main/blob/c4a992454627b4997b94eeaf3a2154aac34d8c1c/portal3.PNG).
+  ![Image Alt](https://github.com/elileec/challenge-amigo-secreto_esp-main/blob/c4a992454627b4997b94eeaf3a2154aac34d8c1c/portal3.PNG)..
+   ![Image Alt](https://github.com/elileec/challenge-amigo-secreto_esp-main/blob/d4018b37ae1bb9cf931c67f071a75222cfe0ba7d/portal4.PNG).
   
 
 ## Tecnologías utilizadas
