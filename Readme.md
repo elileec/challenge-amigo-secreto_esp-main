@@ -8,7 +8,7 @@
 ## Funcionalidades del proyecto
 - `Funcionalidad 1`: Permite generar una lista de amigos.
   
-![Image Alt](https://github.com/elileec/challenge-amigo-secreto_esp-main/blob/e4c9f6c220540bc8d2f48ce92ccecb721023414e/portal1.PNG)\ 
+![Image Alt](https://github.com/elileec/challenge-amigo-secreto_esp-main/blob/e4c9f6c220540bc8d2f48ce92ccecb721023414e/portal1.PNG) 
 
 ![Image Alt](https://github.com/elileec/challenge-amigo-secreto_esp-main/blob/f9c37a0e40717f61fb54de3e42e70a73e6401389/portal2.PNG)  
 
