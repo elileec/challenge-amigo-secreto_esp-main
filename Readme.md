@@ -23,4 +23,4 @@
 - JAVASCRIPT
 
 ## Autor
-Eaborado por LUIS ECHEVERRI CASTAÑO
+Elaborado por LUIS ECHEVERRI CASTAÑO
